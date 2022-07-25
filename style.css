@@ -1,0 +1,196 @@
+* {
+    margin-left: 0px;
+}
+
+.container {
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-top: 120px;
+    text-shadow: 125px 25px red;
+}
+
+
+.container_two {
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-top: 0px;
+    text-shadow: -185px 19px red;
+}
+
+
+
+.wrapper {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sign {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sign:hover {
+    text-decoration: wavy underline;
+}
+
+.img {
+    box-sizing: border-box;
+    display: flex;
+    float: left;
+    padding: 0px;
+    margin-top: -120px;
+    height: 100vh;
+    width: 395px;
+    background-size: 100%;
+    background-size: cover !important;
+    background-position: 50% 50%;
+    image-rendering:crisp-edges !important;
+    image-rendering: pixelated; 
+    background: transparent;
+}
+
+body {
+background-color: black;
+color: aqua;
+}
+
+.form {
+    margin-left: 200px;
+    display: block;
+}
+
+
+.form_two {
+    margin-left: 200px;
+    margin-top: 0px;
+    display: block;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+.Email {
+    margin-left: 200px;
+    display: block;
+}
+
+.number {
+    margin-left: 200px;
+    display: block;
+}
+
+.outline {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+input {
+    margin-left: 200px;
+}
+
+.password {
+    margin-left: 200px;
+    margin-top: 0px;
+    display: block;
+}
+
+.confirm_password {
+    margin-left: 200px;
+    margin-top: 0px;
+    display: block;
+}
+
+.line {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.space {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: wavy underline;
+    font-style: italic;
+}
+
+.whole {
+  background-color: #12181b;  
+  font-weight: bold;
+}
+
+.button {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.button_one {
+    background-color: aqua;
+}
+
+.button_one:hover {
+    background-color: red;
+    box-shadow: 10px 10px aqua;
+    width: 120px;
+}
+
+.first_name {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.first_name:invalid {
+    border-color: red;
+}
+
+.first_name:valid {
+    border-color: lightgreen;
+}
+
+.last_name:invalid {
+    border-color: red;
+}
+
+.last_name:valid {
+    border-color: lightgreen;
+}
+
+.last_name {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.Email_one {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.Email_one:invalid {
+    border-color: red; 
+}
+
+.Email_one:valid {
+    border-color: lightgreen; 
+}
+
+.phone {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.pass_two, .pass_three {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.pass_two, .pass_three:valid {
+    border-color: lightgreen; 
+}
+
+.pass_two, .pass_three:invalid {
+    border-color: red; 
+}
+
+
+
+
+
+
+
+
+
