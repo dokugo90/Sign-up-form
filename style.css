@@ -1,5 +1,6 @@
 * {
     margin-left: 0px;
+    margin-right: 0px;
 }
 
 .container {
@@ -38,20 +39,23 @@
     display: flex;
     float: left;
     padding: 0px;
+    margin: 0px;
     margin-top: -120px;
     height: 100vh;
-    width: 395px;
+    widt: 396px;
     background-size: 100%;
     background-size: cover !important;
     background-position: 50% 50%;
     image-rendering:crisp-edges !important;
-    image-rendering: pixelated; 
+    image-rendering:optimizeQuality; 
     background: transparent;
 }
 
 body {
 background-color: black;
 color: aqua;
+margin-bottom: 0px;
+margin-left: 0px;
 }
 
 .form {
@@ -117,6 +121,7 @@ input {
 .whole {
   background-color: #12181b;  
   font-weight: bold;
+  margin-right: 0px;
 }
 
 .button {
@@ -130,8 +135,20 @@ input {
 
 .button_one:hover {
     background-color: red;
-    box-shadow: 10px 10px aqua;
+    box-shadow: 10px 5px aqua;
     width: 120px;
+}
+
+.submit_btn {
+    background-color: aqua;
+    font-weight: bold;
+    margin-top: 10px ;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.submit_btn:hover {
+    background-color: red;
+    box-shadow: 10px 5px aqua;
 }
 
 .first_name {
@@ -178,12 +195,18 @@ input {
     border-radius: 50px 50px 50px 50px;
 }
 
-.pass_two, .pass_three:valid {
-    border-color: lightgreen; 
+.pass_two:valid, .pass_three:valid {
+    border-color: black; 
 }
 
-.pass_two, .pass_three:invalid {
-    border-color: red; 
+.pass_two:invalid, .pass_three:invalid {
+    border-color: black; 
+}
+
+.buttons {
+    margin-top: 50px;
+    margin-left: -525px;
+    margin-bottom: 0px;
 }
 
 

@@ -8,7 +8,7 @@
     <script src="index.js" defer></script>
     <link href="style.css" rel="stylesheet">
     <div class="img">
-        <img src="download.jpg">
+        <img src="images.jpg">
     </div>
 </head> 
 <body>
@@ -17,7 +17,7 @@
     </div>
 
     <div class="wrapper">
-    <h3> Want to take part in a gaming tournament, that ranges from games such as call of duty, rainbow siz seige, rocket league, brawlhalla and many more. The tournament will take place in december 2022 on the 28. At 4:35 GMT. Don't miss out on the opportunity to be the champion of the arena  </h3>
+    <h3> Want to take part in a gaming tournament, that ranges from games such as call of duty, rainbow siz seige, rocket league, brawlhalla and many more. The tournament will take place in december 2022 on the 28. At 4:35 GMT. Don't miss out on the opportunity to be the champion of the arena.  </h3>
 
     </div>
     <div class="sign">
@@ -26,7 +26,7 @@
     </div>
 <section class="whole">
     <div class="space">
-    <h2> Sign in</h2>
+    <h2> Sign up!</h2>
     </div>
     <form action="http://httpbin.org/post" method="post">
         
@@ -53,24 +53,25 @@
     </section>
     <section class="line">
         <div>
-          <label for="pass" class="password">PASSWORD</label>
-          <input type="password" id="pass" name="passowrd" class="pass_two" minlength="4" maxlength="15" required>
+          <label for="pass_two" class="password">PASSWORD</label>
+          <input type="password" id="pass_two" name="passowrd" class="pass_two" minlength="6" maxlength="15" min="6" max="15" required>
         </div>
         <div>
-            <label for="confirm_pass" class="confirm_password">CONFIRM PASSWORD</label>
-            <input type="password" id="confirm_pass" name="confirm passowrd" class="pass_three" minlength="2" maxlength="20" required>
+            <label for="pass_three" class="confirm_password">CONFIRM PASSWORD</label>
+            <input type="password" id="pass_three" name="confirm passowrd" class="pass_three" onkeyup="validate_password()" minlength="6" maxlength="15" min="6" max="15" required>
 
         </div>
+        <section>
+            <span id="wrong_pass_alert"></span>
+            <div class="buttons">
+           <button id="create" class="submit_btn" onclick="wrong_pass_alert()">Create Account</button>
+            </div>
+        </section>
+     
     </section>
 </section>
-<section>
-    <div class="button">
-      <input type="submit" value="Create Account" class="button_one">
-
-    </div>
+<section>  
 </section>
-    </form>
-
-    
+    </form> 
 </body>
 </html>
